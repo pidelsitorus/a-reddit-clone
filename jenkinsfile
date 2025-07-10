@@ -87,4 +87,6 @@ pipeline {
                    "URL: ${env.BUILD_URL}<br/>",
                to: 'bataranadapdap34@gmail.com',                              
                attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
+	}
+    }
 }
